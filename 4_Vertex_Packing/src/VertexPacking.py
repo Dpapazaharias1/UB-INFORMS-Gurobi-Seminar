@@ -22,7 +22,7 @@ def read(inputfile):
     return n, m, adjLists
 
 
-n, m, adjLists = read("jazz.graph.txt")
+n, m, adjLists = read("../dat/jazz.graph.txt")
 # -------- Max Weighted Clique --------
 MWC_model = Model('MaxWeightClique')
 MWC_model.Params.OutputFlag = 0
